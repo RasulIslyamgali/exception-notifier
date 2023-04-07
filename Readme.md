@@ -1,9 +1,5 @@
 # package for notify error messages to telegram
 
-## requirements
-
-#### set env var EXCEPTIONS_NOTIFY_TO=telegram
-
 ### How to use?
 
 > set env vars
