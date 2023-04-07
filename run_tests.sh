@@ -1,6 +1,0 @@
-export EXCEPTION_NOTIFY_NOTIFY_TO=telegram
-export EXCEPTION_NOTIFY_BOT_TOKEN=your-bot-token
-export EXCEPTION_NOTIFY_CHAT_ID=your-chat-id
-export EXCEPTION_NOTIFY_SERVICE_NAME=your-service-name
-
-pytest
