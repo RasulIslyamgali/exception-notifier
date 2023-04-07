@@ -1,5 +1,8 @@
+fastapi
 pydantic
 requests
 uvicorn
+pytest
 python-dotenv
 gunicorn[standard]
+httpx

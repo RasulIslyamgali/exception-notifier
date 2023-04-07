@@ -13,7 +13,7 @@ else:
 setup(
     name='pyexception-notifier',
     packages=find_packages(),
-    version='0.0.7',
+    version='0.0.8',
     description='Exception notifier',
     long_description=long_description,
     long_description_content_type='text/markdown',
@@ -25,6 +25,9 @@ setup(
         "requests(>=2.27,<3.0)",
         "python-dotenv",
         "gunicorn[standard]",
+        "pytest",
+        "fastapi",
+        "httpx",
     ],
     python_requires=">=3.8"
 )
