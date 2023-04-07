@@ -3,12 +3,12 @@ from traceback import format_exception
 
 from fastapi import Request
 
-from exception_notifier.config import settings
-from exception_notifier.exceptions.exceptions import UnknownTargetNotifySource, NotifySourceNotGiven, \
+from pyexception_notifier.config import settings
+from pyexception_notifier.exceptions.exceptions import UnknownTargetNotifySource, NotifySourceNotGiven, \
     FastApiInstanceNotGiven, UnknownInstanceType
-from exception_notifier.notify_sources_clients.telegram.client import notify_to_telegram
-from exception_notifier.utils.enums import TargetNotifySources, InstanceTypes
-from exception_notifier.utils.exception_parsers import format_traceback
+from pyexception_notifier.notify_sources_clients.telegram.client import notify_to_telegram
+from pyexception_notifier.utils.enums import TargetNotifySources, InstanceTypes
+from pyexception_notifier.utils.exception_parsers import format_traceback
 
 
 def exception_notify_telegram(exctype, value, tb):

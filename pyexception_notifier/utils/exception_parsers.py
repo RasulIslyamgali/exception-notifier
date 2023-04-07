@@ -1,4 +1,4 @@
-from exception_notifier.config import settings
+from pyexception_notifier.config import settings
 
 
 def parse_common_exception_traceback(exception_traceback: list[str]) -> dict[str, str]:

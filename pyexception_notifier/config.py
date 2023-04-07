@@ -2,7 +2,7 @@ from pathlib import Path
 
 from pydantic import BaseSettings, root_validator
 
-from exception_notifier.utils.enums import TargetNotifySources
+from pyexception_notifier.utils.enums import TargetNotifySources
 
 
 class Settings(BaseSettings):

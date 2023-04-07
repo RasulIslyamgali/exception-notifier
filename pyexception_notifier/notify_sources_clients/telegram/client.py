@@ -1,6 +1,6 @@
 import requests
 
-from exception_notifier.config import settings
+from pyexception_notifier.config import settings
 
 
 def notify_to_telegram(message: str, bot_token: str = None, chat_id: str = None):
