@@ -1,0 +1,7 @@
+.idea
+venv
+__pycache__
+app.py
+.env
+*.egg*
+*.tar.gz*
