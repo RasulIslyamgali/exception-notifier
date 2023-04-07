@@ -17,11 +17,11 @@ example:
 ```
 from fastapi import FastAPI
 
-import exception_notifier
+import pyexception_notifier
 
 app = FastAPI()
 
-exception_notifier.init(app=app)
+pyexception_notifier.init(app=app)
 
 
 @app.get('/error')
