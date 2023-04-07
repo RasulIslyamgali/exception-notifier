@@ -1,8 +1,13 @@
+import os
+
 from setuptools import find_packages, setup
 
 
-with open('Readme.md') as f:
-    long_description = f.read()
+if os.getenv('readme') == 'true':
+    with open('Readme.md') as f:
+        long_description = f.read()
+else:
+    long_description = ''
 
 
 setup(
