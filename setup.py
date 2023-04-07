@@ -1,8 +1,5 @@
 from setuptools import find_packages, setup
 
-project_urls = {
-    'Homepage': 'https://github.com/RasulIslyamgali/exception-notifier',
-}
 
 with open('Readme.md') as f:
     long_description = f.read()
