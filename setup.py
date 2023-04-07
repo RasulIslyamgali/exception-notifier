@@ -13,7 +13,7 @@ else:
 setup(
     name='pyexception-notifier',
     packages=find_packages(),
-    version='0.0.4',
+    version='0.0.5',
     description='Exception notifier',
     long_description=long_description,
     long_description_content_type='text/markdown',
