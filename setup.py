@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 setup(
-    name='exception-notifier',
+    name='pyexception-notifier',
     packages=find_packages(),
     version='0.0.1',
     description='Exception notifier',
