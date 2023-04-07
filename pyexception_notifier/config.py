@@ -1,5 +1,3 @@
-from pathlib import Path
-
 from pydantic import BaseSettings, root_validator
 
 from pyexception_notifier.utils.enums import TargetNotifySources
@@ -12,7 +10,7 @@ class Settings(BaseSettings):
     SERVICE_NAME: str = None
 
     class Config:
-        env_file = Path(__file__).parent.parent / '.env'
+        env_file = '.env'
         env_prefix = 'EXCEPTION_NOTIFY_'
 
     @root_validator
