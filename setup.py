@@ -10,6 +10,7 @@ setup(
     version='0.0.2',
     description='Exception notifier',
     long_description=long_description,
+    long_description_content_type='text/markdown',
     author='r.islyamgali',
     license='MIT',
     install_requires=[
