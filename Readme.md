@@ -8,7 +8,7 @@ example:\
 EXCEPTION_NOTIFY_NOTIFY_TO=telegram\
 EXCEPTION_NOTIFY_BOT_TOKEN=your-bot-token\
 EXCEPTION_NOTIFY_CHAT_ID=your-chat-id\
-EXCEPTION_NOTIFY_SERVICE_NAME=log-entry-service
+EXCEPTION_NOTIFY_SERVICE_NAME=your-service-name
 
 > initialize exception_notifier with your FastApi app instance
 
